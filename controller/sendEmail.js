@@ -49,7 +49,7 @@ const sendEmail = expressAsyncHandler(async (req,res)=>{
     // })
     var mailOptions = {
         from: process.env.SMTP_MAIL,
-        to:'sheetaldhingra09@gmail.com',
+        to:'codebuzzzstudio@gmail.com',
         subject:subject,
         html:message
     }
